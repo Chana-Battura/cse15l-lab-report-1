@@ -10,7 +10,7 @@ This lab report will describe the use cases of three commands often used in the 
 > the `cd` command is used to navigate the various directories that can be found in a basic file system.  Below, three examples of cd will be displayed, alongside the output with a description of it below.
 
 #### `cd` command without any arguments
-```
+```bash
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$
 ```
@@ -19,7 +19,7 @@ This lab report will describe the use cases of three commands often used in the 
 - The output is not an error as shown above, the command was able to take the working directory to the home directory.
 
 #### `cd` command with the path to a directory
-```
+```bash
 [user@sahara ~]$ cd lecture1/messages/
 [user@sahara ~/lecture1/messages]$ 
 ```
@@ -28,7 +28,7 @@ This lab report will describe the use cases of three commands often used in the 
 - The output is not an error as shown above, the command was able to take the working directory to the specified directory, meaning that the directory given is found within the working directory.
 
 #### `cd` command with the path to a file
-```
+```bash
 [user@sahara ~]$ cd lecture1/messages/en-us.txt 
 bash: cd: lecture1/messages/en-us.txt: Not a directory
 ```
